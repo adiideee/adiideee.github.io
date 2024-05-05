@@ -707,12 +707,12 @@ main {
 
 
 /**
- * #skill 
+ * #clients 
  */
 
-.skill { margin-bottom: 15px; }
+.clients { margin-bottom: 15px; }
 
-.skill-list {
+.clients-list {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -727,18 +727,19 @@ main {
   scroll-padding-inline: 25px;
 }
 
-.skill-item {
+.clients-item {
   min-width: 50%;
   scroll-snap-align: start;
 }
 
-.skill-item img {
+.clients-item img {
   width: 100%;
   filter: grayscale(1);
   transition: var(--transition-1);
 }
 
-.skill-item img:hover { filter: grayscale(0); }
+.clients-item img:hover { filter: grayscale(0); }
+
 
 
 
